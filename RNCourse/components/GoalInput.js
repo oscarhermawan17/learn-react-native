@@ -12,9 +12,6 @@ export default function GoalInput(props) {
     props.onAddGoal(enteredGoalText)
     setEnteredGoalText("")
   }
-
-  console.log("masuk")
-
   return (
     <Modal visible={props.visible} animationType="slide">
       <View style={styles.inputContainer}>
